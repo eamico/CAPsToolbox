@@ -12,7 +12,7 @@ function CMap = Comp_CMap(data,V,brind_tot,seed_mni,seed_name,seed_radius)
 % as reference for the voxel to world transformation (see spm_vol for info)
 % brind = brain mask, organized as 1xM, with M=number of brain voxels. Last update EA June 2015: individual brind as input (cell array)           
 % seed_mni- 3D coordinates or array of coordinates (in mm) of your seed 
-% centroid (e.g seed_mni= [0 53 26] or seed_mni= [0 -53 26;0 54 -8;])
+% centroid (e.g seed_mni= [0 -53 26] or seed_mni= [0 -53 26;0 54 -8;])
 % seed_name - cell array of string(s) containing the name(s) of the seed(s)
 % (e.g. seed_name ={'PCC','MPFC','THA','THA2'} or seed_name ={'PCC'}).  
 % seed_radius = your seed radius (in mm, e.g. seed_radius=6). 
